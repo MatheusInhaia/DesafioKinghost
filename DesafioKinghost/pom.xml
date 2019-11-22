@@ -4,6 +4,7 @@
   <artifactId>DesafioKinghost</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -24,4 +25,12 @@
       </plugin>
     </plugins>
   </build>
+       <dependencies>
+   <!-- dependencia do md5 -->
+<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.9</version>
+</dependency>
+    </dependencies>
 </project>
