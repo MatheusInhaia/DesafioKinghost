@@ -4,6 +4,7 @@
   <artifactId>DesafioKinghost</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -24,4 +25,46 @@
       </plugin>
     </plugins>
   </build>
+       <dependencies>
+   <!-- dependencia do md5 -->
+<dependency>
+    <groupId>commons-codec</groupId>
+    <artifactId>commons-codec</artifactId>
+    <version>1.9</version>
+</dependency>
+
+
+
+
+<!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+<dependency>
+    <groupId>javax.ws.rs</groupId>
+    <artifactId>javax.ws.rs-api</artifactId>
+    <version>2.0.1</version>
+</dependency>
+ <dependency>
+      <groupId>org.glassfish.jersey.core</groupId>
+      <artifactId>jersey-client</artifactId>
+      <version>2.22.1</version>
+      <scope>provided</scope>
+    </dependency>
+ 
+    <dependency>
+   	  <groupId>org.glassfish.jersey.media</groupId>
+   	  <artifactId>jersey-media-json-jackson</artifactId>
+   	  <version>2.22.1</version>
+    </dependency>
+
+<dependency>
+   <groupId>org.springframework</groupId>
+   <artifactId>spring-webmvc</artifactId>
+   <version>5.0.6.RELEASE</version>
+</dependency>
+ 
+<dependency>
+   <groupId>org.apache.httpcomponents</groupId>
+   <artifactId>httpclient</artifactId>
+   <version>4.5.3</version>
+</dependency>
+    </dependencies>
 </project>
